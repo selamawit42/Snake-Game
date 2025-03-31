@@ -20,9 +20,9 @@ The objective is simple: guide your snake to eat food, grow bigger, and avoid hi
 ## Getting Started
 
 1. **Clone the repo**:
-   ```bash
+[   ```bash
    git clone https://github.com/your-username/snake-game-java.git
-   ```
+   ```](https://github.com/selamawit42/Snake-Game.git)
 
 2. **Open the project** in your IDE (NetBeans or your favorite one).
 
