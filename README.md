@@ -33,7 +33,7 @@ Clone the Repository: Clone this project to your local machine:
 
 bash
 Copy
-git clone [https://github.com//snake-game-java.git](https://github.com/selamawit42/Snake-Game.git)
+git clone https://github.com/your-username/snake-game-java.git
 Import into Your IDE: Open your preferred IDE (e.g., NetBeans, Eclipse, IntelliJ IDEA). Import the project.
 
 Run the Game: Once you’ve opened the project, run the SnakeGame.java class to start the game. Use the arrow keys to control the snake.
