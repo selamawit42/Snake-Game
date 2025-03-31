@@ -1,66 +1,52 @@
-Snake Game in Java
-This is a simple Snake Game implemented in Java, using javax.swing and java.awt for graphical user interfaces and event handling. The game allows users to control a snake that moves around the screen, eats food to grow longer, and avoids collisions with the walls or itself.
 
-Features
-Classic Snake Gameplay: Control the snake to eat food and grow longer.
+# Snake Game in Java
 
-Game Over: The game ends if the snake collides with itself or the wall.
+A simple **Snake Game** created in Java! 🐍
 
-Graphics: Uses Java's Graphics class for rendering the snake, food, and game environment.
+The objective is simple: guide your snake to eat food, grow bigger, and avoid hitting walls or the snake's own body.
 
-Key Controls: Arrow keys to move the snake.
+## Features
 
-Timer: Implements a game loop using a Timer to continuously update the game state.
+- Classic Snake gameplay
+- Eat food to grow your snake
+- Avoid walls and self-collision
+- Control with arrow keys
 
-Technologies Used
-Java: Programming language used for the entire game logic and UI.
+## What You Need
 
-Swing: For creating the graphical user interface.
+- **Java JDK 8+** installed
+- An IDE (like **NetBeans**, **Eclipse**, or **IntelliJ IDEA**) to run the project
 
-AWT: For handling events and graphical rendering.
+## Getting Started
 
-Timer: Used for updating the game state at regular intervals.
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/your-username/snake-game-java.git
+   ```
 
-Prerequisites
-JDK 8 or later (Java Development Kit)
+2. **Open the project** in your IDE (NetBeans or your favorite one).
 
-IDE: Any Java IDE (e.g., NetBeans, IntelliJ IDEA, or Eclipse)
+3. **Run the `SnakeGame.java` file**:
+   - Hit the "Run" button, and the game window should pop up.
+   - Use the **arrow keys** to control the snake.
 
-No additional libraries required, only standard Java libraries are used.
+## How to Play
 
-Installation Steps
-Clone the Repository: Clone this project to your local machine:
+- **Up Arrow**: Move the snake up
+- **Down Arrow**: Move the snake down
+- **Left Arrow**: Move the snake left
+- **Right Arrow**: Move the snake right
 
-bash
-Copy
-git clone https://github.com/your-username/snake-game-java.git
-Import into Your IDE: Open your preferred IDE (e.g., NetBeans, Eclipse, IntelliJ IDEA). Import the project.
+**Goal**: Eat the food (square) and grow longer! Avoid crashing into the walls or the snake itself. The game ends when the snake collides.
 
-Run the Game: Once you’ve opened the project, run the SnakeGame.java class to start the game. Use the arrow keys to control the snake.
+## Game Over 🛑
 
-How to Play
-Arrow Keys: Use the arrow keys to control the snake (Up, Down, Left, Right).
+- The game will end if the snake hits the walls or its own body.
+  
+## Code Breakdown
 
-Objective: Eat the food (represented by a square) to grow the snake. Avoid hitting the walls or the snake itself.
+- **SnakeGame.java**: The main game loop and setup.
+- **Board.java**: Handles the game logic (snake movement, food spawning).
+- **Snake.java**: Defines how the snake moves and grows.
+- **Food.java**: Represents the food the snake eats.
 
-Game Over: The game ends when the snake collides with its own body or the walls of the game window.
-
-Game Controls
-Up Arrow: Move the snake up.
-
-Down Arrow: Move the snake down.
-
-Left Arrow: Move the snake left.
-
-Right Arrow: Move the snake right.
-
-Project Structure
-SnakeGame.java: The main class where the game logic is executed.
-
-Board.java: Contains the game board, handles the snake's movement, food placement, and game-over condition.
-
-Snake.java: Represents the snake and its segments.
-
-Food.java: Represents the food the snake eats.
-
-GamePanel.java: Contains the graphical rendering logic and user interface.
